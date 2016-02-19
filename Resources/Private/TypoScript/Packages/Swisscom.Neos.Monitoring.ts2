@@ -1,4 +1,6 @@
-prototype(TYPO3.Neos:Page) {
+# TODO: There's a problem with the loading order of packages. Therefore usage of prototype doesn't always work.
+#prototype(TYPO3.Neos:Page) {
+page {
 	monitoringString = ${Configuration.setting('Swisscom.Neos.Monitoring.monitoringString')} {
 		@process.wrapIfNotEmpty = ${value ? '<!-- Monitoring  -' + value + '- -->' : ''}
 		@position = 'before closingBodyTag'
