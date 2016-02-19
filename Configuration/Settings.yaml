@@ -1,0 +1,9 @@
+TYPO3:
+  Neos:
+    typoScript:
+      autoInclude:
+        'Swisscom.Neos.Monitoring': TRUE
+
+Swisscom:
+  Neos:
+    monitoringString: 'fd923dd72b3a7f7a097a4c263c7be742'
