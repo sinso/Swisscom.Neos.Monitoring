@@ -1,5 +1,5 @@
 prototype(TYPO3.Neos:Page) {
-	monitoringString = ${Configuration.setting('Swisscom.Neos.monitoringString')} {
+	monitoringString = ${Configuration.setting('Swisscom.Neos.Monitoring.monitoringString')} {
 		@process.wrapIfNotEmpty = ${value ? '<!-- Monitoring  -' + value + '- -->' : ''}
 		@position = 'before closingBodyTag'
 	}

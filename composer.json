@@ -7,7 +7,7 @@
     },
     "autoload": {
         "psr-0": {
-            "Swisscom\\Neos\\Monitorin": "Classes"
+            "Swisscom\\Neos\\Monitoring": "Classes"
         }
     }
 }
